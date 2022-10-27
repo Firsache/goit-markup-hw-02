@@ -11,6 +11,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
 }
 body {
     background-color: var(--primary-white-color);
@@ -23,6 +24,9 @@ body {
 }
 .list {
     list-style: none;
+}
+.link {
+    cursor: pointer;
 }
 /* Logo */
 .logo{
@@ -86,6 +90,7 @@ body {
     font-size: 16px;
     line-height: 1.88;   
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 /* Section */
 .section-title {
@@ -126,4 +131,24 @@ body {
 .footer.link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+.footer.link:hover,
+.footer.link:focus {
+    color: var(--accent-color);
+}
+
+/* Portfolio */
+.filter-button {
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button:active {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
