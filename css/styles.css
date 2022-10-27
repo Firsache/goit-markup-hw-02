@@ -39,8 +39,7 @@ body {
 .site-nav .link {
     color: var(--title-text-color);
     
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 500;    
     line-height: 1.14;
     letter-spacing: 0.02em;    
     text-decoration: none;
@@ -55,8 +54,7 @@ body {
 .auth-nav .link{
     color: var(--primary-text-color);
 
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 500;    
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -88,4 +86,44 @@ body {
     font-size: 16px;
     line-height: 1.88;   
     letter-spacing: 0.06em;
+}
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+/* Advantages */
+.title {
+    color: var(--title-text-color);
+
+    font-weight: 700;    
+    line-height: 1.14;
+}
+/* Our team */
+.team-member.title {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;  
+    text-align: center;
+}
+.team-member.text {
+    font-size: 16px;
+    line-height: 1.18;
+}
+/* Footer */
+.footer{
+    background-color: #2F303A;
+    color: var(--primary-white-color);
+}
+.logo-footer {
+    color: var(--primary-white-color);
+}
+.footer.link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
