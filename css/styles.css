@@ -92,6 +92,11 @@ body {
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #188CE8;
+}
 /* Section */
 .section-title {
     color: var(--title-text-color);
