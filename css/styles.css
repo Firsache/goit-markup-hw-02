@@ -12,14 +12,15 @@
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
     --secondary-background-color: #F5F4FA;
+    --dark-background-color: #2F303A;
+    --logo-black: #000000;
 }
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 1.71;       
+    font-size: 14px;     
     letter-spacing: 0.03em;
 }
 .list {
@@ -30,7 +31,7 @@ body {
 }
 /* Logo */
 .logo{
-    color: #000000;
+    color: var(--logo-black);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
@@ -67,7 +68,7 @@ body {
 }
 /* Hero */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--dark-background-color);
 }
 
 .hero-title {
@@ -77,7 +78,8 @@ body {
     font-size: 44px;
     line-height: 1.36;     
     text-align: center;
-    letter-spacing: 0.06em;    
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button {
@@ -107,10 +109,18 @@ body {
 .title {
     color: var(--title-text-color);
 
+    font-size: 14px;
     font-weight: 700;    
     line-height: 1.14;
+    text-transform: uppercase;
+}
+.feature-list p {
+    line-height: 1.71;
 }
 /* Our team */
+.our-team {
+    background-color: var(--secondary-background-color);
+}
 .team-member.title {
     color: var(--title-text-color);
 
@@ -125,14 +135,18 @@ body {
 }
 /* Footer */
 .footer{
-    background-color: #2F303A;
+    background-color: var(--dark-background-color);
     color: var(--primary-white-color);
 }
 .logo-footer {
     color: var(--primary-white-color);
 }
+.footer p{
+    font-style: normal;
+}
 .footer.link {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     
 }
 .footer.link:hover,
@@ -144,6 +158,8 @@ body {
 .filter-button {
     background-color: var(--secondary-background-color);
     color: var(--title-text-color);
+
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
